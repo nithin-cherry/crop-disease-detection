@@ -6,11 +6,11 @@ This project is designed to help users interact with a crop-related system (upda
 ---
 ##  Features
 
-- 🌱 Clean and responsive frontend UI
-- ⚡ Fast backend API using Express
-- 🔗 Frontend–backend integration
-- 📦 REST API architecture
-- 🛠️ Easy to extend and scale
+-  Clean and responsive frontend UI
+-  Fast backend API using Express
+-  Frontend–backend integration
+-  REST API architecture
+-  Easy to extend and scale
 
 ---
 
