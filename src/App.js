@@ -68,7 +68,7 @@ function App() {
     formData.append("language", language);
 
     try {
-      const response = await fetch("http://localhost:5000/analyze", {
+      const response = await fetch("https://crop-disease-detection-u1od.onrender.com/analyze", {
         method: "POST",
         body: formData,
       });
@@ -89,7 +89,7 @@ function App() {
 
   return (
     <div className="app">
-      {/* Navigation Bar */}
+
       <nav className="navbar">
         <div className="nav-container">
           <div className="nav-logo">
@@ -113,7 +113,7 @@ function App() {
       </nav>
 
       <div className="container">
-        {/* ANALYZE PAGE */}
+
         {activePage === 'analyze' && (
           <>
             <div className="upload-card">
@@ -174,7 +174,7 @@ function App() {
           </>
         )}
 
-       {/* Tips Page */}
+ 
 {activePage === 'tips' && (
   <div className="tips-page">
     <h2 className="page-title">{t.tipsTitle}</h2>
@@ -264,7 +264,7 @@ function App() {
   </div>
 )}
 
-{/* Govt Schemes Page */}
+
 {activePage === 'schemes' && (
   <div className="schemes-page">
     <h2 className="page-title">
@@ -352,7 +352,7 @@ function App() {
   </div>
 )}
 
-{/* Pesticides Page */}
+
 {activePage === 'pesticides' && (
   <div className="pesticides-page">
     <h2 className="page-title">
