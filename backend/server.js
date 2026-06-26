@@ -17,7 +17,6 @@ const upload = multer({
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
-/* ---------------- HEALTH CHECK ---------------- */
 app.get("/", (req, res) => {
   res.json({
     status: "success",
@@ -31,7 +30,6 @@ app.get("/", (req, res) => {
 
 
 
-/* ---------------- ANALYZE ROUTE ---------------- */
 app.post("/analyze", upload.single("image"), async (req, res) => {
   try {
     if (!req.file) {
@@ -41,7 +39,7 @@ app.post("/analyze", upload.single("image"), async (req, res) => {
       });
     }
 
-    const { language = "en" } = req.body;   // ← New: Accept language
+    const { language = "en" } = req.body;  
 
     const imagePart = {
       inlineData: {
@@ -108,9 +106,9 @@ Be accurate, practical, and farmer-friendly.
   }
 });
 
-/* ---------------- START SERVER ---------------- */
+
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
-  console.log(` Server running on http://localhost:${PORT}`);
+  console.log(` Server running on render`);
 });
