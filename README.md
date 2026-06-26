@@ -14,7 +14,7 @@ This project is designed to help users interact with a crop-related system (upda
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 **Frontend:**
 - React
@@ -29,5 +29,3 @@ This project is designed to help users interact with a crop-related system (upda
 - Git & GitHub
 
 ---
-
-## 📂 Project Structure
