@@ -1,11 +1,10 @@
-# 🌾 Crop Disease Detection / Crop Project
+#  Crop Disease Detection / Crop Project
 
 A full-stack web application built using **React (frontend)** and **Node.js + Express (backend)**.  
 This project is designed to help users interact with a crop-related system (update this based on your exact feature like disease detection, info system, etc.).
 
 ---
-
-## 🚀 Features
+##  Features
 
 - 🌱 Clean and responsive frontend UI
 - ⚡ Fast backend API using Express
